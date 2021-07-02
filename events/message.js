@@ -9,12 +9,12 @@ module.exports = (client, msg) => {
   let guild = client.guilds.get(tokens.guild);
 
   if (msg.guild === null) {
-    if (guild.channels.exists('name', `xd7-${msg.author.id}`)) {
-      let c = guild.channels.find(channel => channel.name === `xd7-${msg.author.id}`);
+    if (guild.channels.exists('name', `jambo-${msg.author.id}`)) {
+      let c = guild.channels.find(channel => channel.name === `jambo-${msg.author.id}`);
       msg.react('✅')
       c.send("Message from **" + msg.author + "(" + msg.author.id + ")**\n\n```yaml\n" + msg.content + "\n```")
     } else {
-      guild.createChannel(`xd7-${msg.author.id}`, 'text').then(async c => {
+      guild.createChannel(`jambo-${msg.author.id}`, 'text').then(async c => {
         c.setParent(tokens.ticket_category)
 
         let everyone = guild.id;

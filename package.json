@@ -1,5 +1,5 @@
 {
-  "name": "👑XD7💎",
+  "name": "Jambo",
   "version": "7.7.7",
   "description": "DM FOR SUPPORT",
   "main": "app.js",
@@ -9,15 +9,12 @@
   "engines": {
     "node": "8.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://discord.gg/8BgnSczGRh"
-  },
+  
   "keywords": [
-    "xd7",
+    "jambo",
     "discord.js"
   ],
-  "author": "👑XD7💎",
+  "author": "Jambo",
   "license": "ISC",
   "bugs": {
     "url": "https://discord.gg/8BgnSczGRh"
