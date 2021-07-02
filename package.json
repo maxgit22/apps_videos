@@ -1,0 +1,31 @@
+{
+  "name": "👑XD7💎",
+  "version": "7.7.7",
+  "description": "DM FOR SUPPORT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://discord.gg/8BgnSczGRh"
+  },
+  "keywords": [
+    "xd7",
+    "discord.js"
+  ],
+  "author": "👑XD7💎",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://discord.gg/8BgnSczGRh"
+  },
+  "homepage": "https://discord.gg/8BgnSczGRh",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.6.4",
+    "ms": "^2.1.3"
+  }
+}
